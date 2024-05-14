@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import classes from './page.module.css'
-import ImageSlideshow from '@/components/main-header/images/image-slideshow';
+import ImageSlideshow from '@/components/images/image-slideshow';
 
 export default function Home() {
   return (
@@ -52,13 +52,5 @@ export default function Home() {
         </section>
       </main>
     </>
-    // <main>
-    //   <h1 style={{ color: 'white', textAlign: 'center' }}>
-    //     Time to get started!
-    //   </h1>
-    //   <p><Link href="/meals">Meals</Link></p>
-    //   <p><Link href="/meals/share">Share Meal</Link></p>
-    //   <p><Link href="/community">Community</Link></p>
-    // </main>
   );
 }
